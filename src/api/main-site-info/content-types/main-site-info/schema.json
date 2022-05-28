@@ -136,6 +136,17 @@
         }
       },
       "type": "json"
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.client",
+      "required": true
     }
   }
 }
